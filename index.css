@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Tektur&display=swap");
+header {
+  background: url("./img/header-background.jpg");
+  height: 1000px;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 320px;
+}
+
+.header-list {
+  display: flex;
+}
+
+.link {
+  list-style: none;
+  padding-left: 40px;
+}
+
+.header-info__block {
+  background-image: url("./img/yellow-background.png");
+  width: 624px;
+  height: 369px;
+  margin-right: 320px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.header-info__block p {
+  font-family: "Tektur", cursive;
+  font-size: 52px;
+  padding: 70px 70px 25px 70px;
+}
+
+.header-info__block button {
+  padding: 19px 50px;
+  margin-bottom: 70px;
+  margin-left: 70px;
+  background: #000;
+  color: #F8F200;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 24px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=index.css.map */
