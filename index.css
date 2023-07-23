@@ -2,8 +2,20 @@
 @media (min-width: 1025px) and (max-width: 1920px) {
   header {
     background: center center no-repeat url("./img/header-background.jpg");
+    animation: bg-change 15s infinite;
     position: relative;
     height: 1000px;
+  }
+  @keyframes bg-change {
+    33% {
+      background-image: url("img/bg2.jpg");
+    }
+    66% {
+      background-image: url("img/bg3.jpg");
+    }
+    100% {
+      background-image: url("img/header-background.jpg");
+    }
   }
   .link {
     padding-left: 40px;
@@ -32,8 +44,20 @@
 @media (min-width: 768px) and (max-width: 1024px) {
   header {
     background: center center no-repeat url("./img/media-img/bg.png");
+    animation: bg-change 15s infinite;
     position: relative;
     height: 1000px;
+  }
+  @keyframes bg-change {
+    33% {
+      background-image: url("img/media-img/bg2.png");
+    }
+    66% {
+      background-image: url("img/media-img/bg3.png");
+    }
+    100% {
+      background-image: url("img/media-img/bg.png");
+    }
   }
   .header {
     padding: 20px 36px;
@@ -65,8 +89,20 @@
 @media (min-width: 426px) and (max-width: 767px) {
   header {
     background: center center no-repeat url("./img/media-img/bg.png");
+    animation: bg-change 15s infinite;
     position: relative;
     height: 900px;
+  }
+  @keyframes bg-change {
+    33% {
+      background-image: url("img/media-img/bg2.png");
+    }
+    66% {
+      background-image: url("img/media-img/bg3.png");
+    }
+    100% {
+      background-image: url("img/media-img/bg.png");
+    }
   }
   .header {
     padding: 20px 12px;
@@ -82,7 +118,7 @@
     padding: 0px 15px;
   }
   .header-info {
-    margin-right: 36px;
+    margin-left: 25%;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -106,8 +142,20 @@
 @media (min-width: 320px) and (max-width: 425px) {
   header {
     background: center center no-repeat url("./img/media-img/bg.png");
+    animation: bg-change 15s infinite;
     position: relative;
     height: 900px;
+  }
+  @keyframes bg-change {
+    33% {
+      background-image: url("img/media-img/bg2.png");
+    }
+    66% {
+      background-image: url("img/media-img/bg3.png");
+    }
+    100% {
+      background-image: url("img/media-img/bg.png");
+    }
   }
   .header {
     padding: 20px 12px;
@@ -120,7 +168,7 @@
   }
   .link a img {
     width: 25px;
-    padding: 0px 15px;
+    padding: 0px 10px;
   }
   .header-info {
     position: absolute;
