@@ -221,6 +221,189 @@
   font-weight: 700;
 }
 
+@media (min-width: 1550px) and (max-width: 1920px) {
+  .first {
+    padding: 70px 16.6666666667%;
+  }
+  .images div {
+    flex-direction: column;
+  }
+  .images-media__big {
+    display: none;
+  }
+}
+@media (min-width: 1300px) and (max-width: 1549px) {
+  .first {
+    padding: 70px 12.5%;
+  }
+  .images {
+    flex-direction: column;
+  }
+  .images div {
+    flex-direction: row;
+    padding-bottom: 32px;
+  }
+  .console {
+    width: 600px;
+  }
+  .images-media__big {
+    display: none;
+  }
+}
+@media (min-width: 1023px) and (max-width: 1300px) {
+  .first {
+    padding: 70px 36px;
+  }
+  .first p {
+    width: 952px;
+  }
+  .images {
+    flex-direction: column;
+    margin: 0;
+  }
+  .pad {
+    padding-right: 32px;
+  }
+  .images div {
+    flex-direction: row;
+    padding-bottom: 32px;
+  }
+  .console {
+    display: none;
+  }
+  .images-media__big {
+    display: none;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .first {
+    padding: 70px 36px;
+  }
+  .images {
+    flex-direction: column;
+  }
+  .pad {
+    padding-bottom: 32px;
+  }
+  .images-big {
+    display: none;
+  }
+  .images div {
+    flex-direction: column;
+    padding-bottom: 32px;
+  }
+  .console {
+    display: none;
+  }
+  .play {
+    flex-direction: column;
+  }
+  input {
+    width: 70%;
+  }
+}
+.first h1 {
+  font-size: 62px;
+  font-family: "Tektur", cursive;
+  padding-bottom: 25px;
+}
+
+.first p {
+  font-family: "Roboto";
+  font-size: 18px;
+  padding-bottom: 70px;
+}
+
+.first p span {
+  color: #52BEDC;
+  font-weight: 700;
+}
+
+.images {
+  display: flex;
+}
+
+.images div {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 32px;
+}
+
+.transition {
+  background: no-repeat url("img/transition.png");
+  background-color: #000;
+  height: 70px;
+}
+
+.second {
+  padding: 70px 16.6666666667%;
+  background-color: #000;
+  color: #fff;
+}
+
+.play {
+  display: flex;
+  align-items: center;
+  padding-bottom: 25px;
+}
+
+.play h1 {
+  font-size: 62px;
+  font-family: "Tektur", cursive;
+}
+
+.second div span {
+  background: url("img/icons/star.svg");
+}
+
+.second p {
+  font-family: Roboto;
+  font-size: 18px;
+}
+
+.second p span {
+  color: #52BEDC;
+}
+
+.form_image {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 100px;
+}
+
+.user_info {
+  color: #fff;
+  background-color: #000;
+  border-color: #000;
+  border-right: #000;
+  font-size: 18px;
+  margin-bottom: 35px;
+}
+
+.file {
+  border: 1px dashed #fff;
+}
+
+.button {
+  width: 192px;
+  height: 59px;
+  background-color: #F8F200;
+  color: #000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
+.radio_button {
+  display: flex;
+}
+
+.m-console {
+  display: none;
+}
+
 * {
   margin: 0;
   padding: 0;
