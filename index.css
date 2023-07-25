@@ -225,16 +225,40 @@
   .first {
     padding: 70px 16.6666666667%;
   }
+  .first h1 {
+    font-size: 62px;
+  }
   .images div {
     flex-direction: column;
   }
   .images-media__big {
     display: none;
   }
+  .second {
+    padding: 70px 16.6666666667%;
+  }
+  .play h1 {
+    font-size: 62px;
+  }
+  .play {
+    align-items: center;
+  }
+  .user_info {
+    width: 460px;
+  }
+  .m-console {
+    display: none;
+  }
+  .m-console2 {
+    display: none;
+  }
 }
 @media (min-width: 1300px) and (max-width: 1549px) {
   .first {
     padding: 70px 12.5%;
+  }
+  .first h1 {
+    font-size: 62px;
   }
   .images {
     flex-direction: column;
@@ -243,8 +267,23 @@
     flex-direction: row;
     padding-bottom: 32px;
   }
+  .second {
+    padding: 70px 12.5%;
+  }
+  .play h1 {
+    font-size: 62px;
+  }
+  .play {
+    align-items: center;
+  }
   .console {
     width: 600px;
+  }
+  .m-console {
+    display: none;
+  }
+  .m-console2 {
+    display: none;
   }
   .images-media__big {
     display: none;
@@ -253,6 +292,9 @@
 @media (min-width: 1023px) and (max-width: 1300px) {
   .first {
     padding: 70px 36px;
+  }
+  .first h1 {
+    font-size: 62px;
   }
   .first p {
     width: 952px;
@@ -268,16 +310,42 @@
     flex-direction: row;
     padding-bottom: 32px;
   }
+  .second {
+    padding: 70px 36px;
+  }
+  .play {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .second h1, .second p {
+    width: 460px;
+  }
+  .play h1 {
+    font-size: 62px;
+  }
+  input {
+    width: 460px;
+  }
   .console {
+    display: none;
+  }
+  .m-console {
+    display: block;
+    margin-top: -550px;
+  }
+  .m-console2 {
     display: none;
   }
   .images-media__big {
     display: none;
   }
 }
-@media screen and (max-width: 1023px) {
+@media (min-width: 756px) and (max-width: 1023px) {
   .first {
     padding: 70px 36px;
+  }
+  .first h1 {
+    font-size: 62px;
   }
   .images {
     flex-direction: column;
@@ -292,18 +360,121 @@
     flex-direction: column;
     padding-bottom: 32px;
   }
+  .second h1, .second p {
+    width: 460px;
+  }
+  .play h1 {
+    font-size: 62px;
+  }
   .console {
+    display: none;
+  }
+  .m-console {
+    margin-top: -550px;
+  }
+  .m-console2 {
     display: none;
   }
   .play {
     flex-direction: column;
+    align-items: flex-start;
+  }
+  input {
+    width: 70%;
+  }
+}
+@media (min-width: 510px) and (max-width: 756px) {
+  .first {
+    padding: 70px 36px;
+  }
+  .first h1 {
+    font-size: 62px;
+  }
+  .images {
+    flex-direction: column;
+  }
+  .pad {
+    padding-bottom: 32px;
+  }
+  .images-big {
+    display: none;
+  }
+  .images div {
+    flex-direction: column;
+    padding-bottom: 32px;
+  }
+  .second {
+    flex-direction: column;
+    padding: 36px;
+  }
+  .play h1 {
+    font-size: 62px;
+  }
+  .console {
+    display: none;
+  }
+  .m-console2 {
+    display: none;
+  }
+  .form_image {
+    flex-direction: column;
+  }
+  .play {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  input {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 510px) {
+  .first {
+    padding: 70px 36px;
+  }
+  .first h1 {
+    font-size: 30px;
+  }
+  .images {
+    flex-direction: column;
+  }
+  .pad {
+    padding-bottom: 32px;
+  }
+  .images-big {
+    display: none;
+  }
+  .images div {
+    flex-direction: column;
+    padding-bottom: 32px;
+  }
+  .second {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .console {
+    display: none;
+  }
+  .m-console {
+    display: none;
+  }
+  .m-console2 {
+    width: 80%;
+  }
+  .form_image {
+    flex-direction: column;
+  }
+  .play {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .play h1 {
+    font-size: 30px;
   }
   input {
     width: 70%;
   }
 }
 .first h1 {
-  font-size: 62px;
   font-family: "Tektur", cursive;
   padding-bottom: 25px;
 }
@@ -336,19 +507,16 @@
 }
 
 .second {
-  padding: 70px 16.6666666667%;
   background-color: #000;
   color: #fff;
 }
 
 .play {
   display: flex;
-  align-items: center;
   padding-bottom: 25px;
 }
 
 .play h1 {
-  font-size: 62px;
   font-family: "Tektur", cursive;
 }
 
@@ -398,10 +566,8 @@
 
 .radio_button {
   display: flex;
-}
-
-.m-console {
-  display: none;
+  justify-content: flex-start;
+  width: 30px;
 }
 
 * {
